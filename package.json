@@ -2,7 +2,6 @@
   "name": "reflex-server",
   "version": "1.0.0",
   "description": "A media server for ReflexHub",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,5 +23,10 @@
   "dependencies": {
     "express": "^4.13.3",
     "media-identifier": "github:reflexhub/media-identifier"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "reflex": "src/index.js",
+    "rh": "src/index.js"
   }
 }
