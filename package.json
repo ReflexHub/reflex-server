@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/ReflexHub/reflex-server/issues"
   },
-  "homepage": "https://github.com/ReflexHub/reflex-server#readme"
+  "homepage": "https://github.com/ReflexHub/reflex-server#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "media-identifier": "github:reflexhub/media-identifier"
+  }
 }
